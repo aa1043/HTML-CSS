@@ -1,0 +1,25 @@
+.a,
+.b
+{
+  display:block;
+  margin-bottom: 14px;
+  border-radius:5px;
+  padding:6px 15px 6px 15px;
+  width:280px;
+  border:none;
+  transition: box-shadow 0.3s,background-color 0.3s;
+  background-color: rgba(132, 137, 142, 0.781);
+  color:black;
+}
+.a:hover,
+.b:hover
+{
+  box-shadow:3px 3px 12px black;
+  background-color: aqua;
+}
+.a:active,
+.b:active
+{
+  box-shadow:3px 3px 12px black;
+  background-color: rgb(6, 92, 241);
+}

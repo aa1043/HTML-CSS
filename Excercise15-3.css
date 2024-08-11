@@ -1,0 +1,120 @@
+.Main
+{
+  display:flex;
+  flex-direction: column;
+  height:220px;
+  width: 500px;
+
+}
+.Sub-Main1
+{
+  height:90px;
+  display:flex;
+  flex-direction: row;
+  width:480px;
+  justify-content: space-between;
+
+}
+.Image
+{
+  padding-top: 15px;
+  padding-left:10px;
+  height: 170px;
+  width:150px;
+  align-items: center;
+}
+.Sub-Image
+{
+  height :60px;
+  width:60px;
+  border-radius: 70px;
+  border:none;
+}
+.Sub-Main11
+{
+  display: flex;
+  flex-direction: column;
+  height:80px;
+  width:450px;
+  margin-left: 14px;
+
+}
+.Super
+{
+  width:400px;
+  height:40px;
+}
+.Super1
+{
+  margin-bottom: 5px;
+  font-family: arial;
+  font-weight: 700;
+  font-size: 17px;
+}
+.Super2
+{
+  color:grey;
+  margin-left: 4px;
+  font-size: 15px;
+}
+.What
+{
+  width:100%;
+  height:40px;
+}
+.What1
+{
+  margin-top: 5px;
+  font-family: arial;
+  font-weight: 550;
+  margin-bottom:2px;
+}
+
+.Sub-Main2
+{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 400px;
+  margin-left: 87px;
+  border-radius: 14px;
+  margin-top:10px;
+  border-style: solid;
+  border-color: rgb(30, 31, 31);
+  border-width: 1px;
+  color: rgb(222, 226, 226);
+  background-color: rgb(174, 168, 168);
+}
+.Sub-Main221
+{
+  
+  width:250px;
+  height:100px;
+  border-radius: 14px;
+}
+.Sub-Main222
+{
+  background-color: white;
+}
+.Youtube
+{
+  margin-left:7px;
+}
+.Back
+{
+  margin-left: 7px;
+}
+.Backend,.Youtube
+{
+  font-family: arial;
+  font-weight: 570;
+}
+.Youtube
+{
+  color:rgb(139, 136, 136);
+  font-weight: 553;
+}
+.Backend
+{
+  color: black;
+}

@@ -1,0 +1,104 @@
+.Main
+{
+  display:flex;
+  flex-direction: column;
+  height:130px;
+  width:490px;
+  border-radius: 9px;
+  box-shadow:2px 2px 7px black;
+}
+.Inbox
+{
+  height:45px;
+  width:100%;
+}
+.Sub-Inbox
+{
+  margin-top:10px;
+  margin-left:12px;
+  font-family: arial;
+  color:grey;
+  font-weight:550;
+}
+.Sub-Main
+{
+  display:flex;
+  flex-direction: row;
+  height:80px;
+  width:480px;
+  justify-content: space-between;
+}
+.Image
+{
+  width:60px;
+  height:60px;
+  margin-left:9px;
+}
+.Sub-Image
+{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:50px;
+}
+.Sec-Sub-Main
+{
+  display:flex;
+  flex-direction: column;
+  margin-right: 7px;
+  justify-content: start;
+  width:390px;
+}
+.Promo-Main
+{
+  display:flex;
+  flex-direction: row;
+  margin-right: 7px;
+  justify-content: space-between;
+  width:390px;
+  height:20px;
+}
+.Promotions
+{
+  width: 180px;
+  font-family: arial;
+  font-weight: bold;
+}
+.Promotions-Time
+{
+  width:60px;
+  height:20px;
+}
+.Sub-Promotions,.Time
+{
+  margin-top:0px;
+  margin-bottom:4px;
+}
+.Time
+{
+  font-family: arial;
+  font-size:15px;
+  color:grey;
+}
+.Sales
+{
+  width: 200px;
+  font-family: arial;
+  font-weight: bold;
+  height:8px;
+}
+.Sub-Sales
+{
+  margin-top:0px;
+}
+.Hey
+{
+  height:10px;
+}
+.Sub-Hey
+{
+  font-family: arial;
+  height:14px;
+  font-weight:500;
+  color:grey;
+}

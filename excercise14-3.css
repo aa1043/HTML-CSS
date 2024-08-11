@@ -1,0 +1,13 @@
+.item1,.item2,.item3,.item4
+{
+  background-color:lightpink;
+}
+.main
+{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}

@@ -1,0 +1,24 @@
+.f
+{
+  background-color: rgba(32, 31, 31, 0.974);
+  width:500px;
+  padding-top:5px;
+  height:130px;
+  padding-left:14px;
+}
+.a
+{
+  font-family: arial;
+  font-size:29px;
+  color:white;
+  font-weight: bold;
+  margin-bottom:5px;
+  margin-top:6px;
+}
+.b
+{
+  font-size: 18px;
+  font-family: arial;
+  width:400px;
+  color:gray;
+}

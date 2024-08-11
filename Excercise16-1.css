@@ -1,0 +1,181 @@
+.Header
+{
+  position: fixed;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:60px;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(189, 192, 195, 0.471);
+  background-color: aliceblue;
+}
+.Profile
+{
+  height:50px;
+  width:200px;
+  margin-left:30px;
+  display:flex;
+  flex-direction: row;
+}
+.Image
+{
+  height:45px;
+  width:45px;
+  margin-left: 40px;
+}
+.i-Image
+{
+  height: 40px;
+  width:40px;
+  border-radius: 35px;
+  margin-right:9px;
+  margin-top: 6px;
+}
+.Name
+{
+  height:45px;
+  width:80px;
+  margin-left: 10px;
+}
+.p-Name
+{
+  width:100%;
+  font-family: Arial;
+  font-weight: 600;
+}
+.Buttons
+{
+  display:flex;
+  flex-direction: row;
+  width:260px;
+  height:100%;
+}
+.Button1
+{
+  width: 117px;
+  height: 100%;
+}
+.Button2
+{
+  width:128px;
+  height:100%;
+}
+.Button11,.Button22
+{
+  background-color: rgb(11, 127, 242);
+  color:white;
+  border-radius: 37px;
+  border: none;
+  margin-top: 10px;
+  padding:8px 11px 8px 11px;
+  font-family: arial;
+  font-size: 540;
+  transition: box-shadow 0.25s;
+}
+body
+{
+  padding-top:65px;
+  height: 3000px;
+  margin:0px,0px,0px,0px;
+  width:5500px;
+}
+.Button22:hover,.Button11:hover
+{
+  box-shadow: 2px 2px 8px black;
+}
+
+.Side-Header
+{
+  position: fixed;
+  top:60px;
+  bottom:0px;
+  width:70px;
+  left:0px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(46, 45, 45);
+}
+.Image1,.Image2,.Image3
+{
+  height:55px ;
+  width:55px;
+  margin-top:10px;
+  margin-left:8px;
+}
+.i-Image1,.i-Image2,.i-Image3
+{
+  height: 50px;
+  width:50px;
+  border-radius: 45px;
+
+}
+.Side-Header2
+{
+  position: fixed;
+  top:60px;
+  bottom:0px;
+  width:170px;
+  left:70px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(27, 26, 26);
+}
+.Info-Main
+{
+  width:100%;
+  height:40px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.Sub-Info
+{
+  font-family: arial;
+  color:white;
+  font-weight: 560;
+  margin-left:12px;
+  font-size:13px
+}
+.plus
+{
+  height:40px;
+  width:20px;
+}
+.Sub-plus
+{
+  font-family: arial;
+  color:rgb(187, 182, 182);
+  font-weight: 560;
+  font-size:23px;
+  margin-top:8px;
+  padding-right:0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(27, 26, 26);
+  border:none;
+  margin-right:3px;
+  transition: color 0.4s;
+}
+.Hash1,.Hash2,.Hash3
+{
+  height:40px;
+  width:100%;
+}
+.Sub-Hash1,.Sub-Hash2,.Sub-Hash3
+{
+  font-family: arial;
+  color:rgb(187, 182, 182);
+  font-weight: 520;
+  font-size:13px;
+  margin-top:8px;
+  margin-left:12px;
+}
+.Sub-plus:hover
+{
+  color:rgb(0, 200, 255);
+}

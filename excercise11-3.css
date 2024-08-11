@@ -1,0 +1,46 @@
+.f
+{
+  width: 500px;
+  border-color:rgba(0, 0, 0, 0.912);
+  padding-top:5px;
+  padding-left:10px;
+  border-width: 2px;
+  border-style: solid;
+}
+.a
+{
+  width:300px;
+  font-size: 20px;
+  font-family:arial;
+  display:block;
+  margin-top:10px;
+  margin-left:5px;
+}
+.b,
+.c
+{
+  background-color: rgb(12, 176, 241);
+  padding:7px 10px 7px 10px;
+  border-radius: 5px;
+  border: none;
+  color:white;
+  font-weight:bold;
+  margin-bottom:50px;
+  vertical-align: middle;
+  transition: background-color 0.3s,box-shadow 0.3s,cursor 0.3s;
+  margin-right:5px;
+}
+.b:hover,
+.c:hover
+{
+  background-color: blueviolet;
+  box-shadow: 4px 4px 13px black;
+  cursor:pointer;
+}
+.b:active,
+.c:active
+{
+  background-color: rgb(208, 43, 43);
+  box-shadow: 4px 4px 13px rgb(3, 55, 103);
+  cursor:pointer;
+}

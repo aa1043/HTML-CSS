@@ -1,0 +1,20 @@
+.Main
+{
+  display:flex;
+  flex-direction: row;
+}
+.one
+{
+  width:50px;
+  background-color: skyblue;
+}
+.Two
+{
+  flex:1;
+  background-color: lightpink;
+}
+.Three
+{
+  width:75px;
+  background-color: skyblue;
+}

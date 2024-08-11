@@ -1,0 +1,137 @@
+.main,.main1,.main2,.main3,.main4,.main5,.main6,.main7
+{
+  height: 450px;
+  width:300px;
+  position: relative;
+}
+.shirt,.shirt2,.shirt3,.shirt4,.shirt5,.shirt6,.shirt7
+{
+  width: 300px;
+  height:450px;
+  object-fit: cover;
+}
+.discount,.discount2,.discount3,.discount4,.discount5,.discount6,.discount7
+{
+  position: absolute;
+  top:10px;
+  left:232px;
+  background-color: black;
+  padding:5px 6px 5px 6px;
+}
+.dis,.dis2,.dis3,.dis4,.dis5,.dis6,.dis7
+{
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left: 0px;
+  margin-right:0px;
+  color:white;
+  font-family:arial;
+  font-size:13px;
+}
+.Main2,.Main22,.Main23,.Main24,.Main25,.Main26,.Main27
+{
+  position: absolute;
+  top:270px;
+  left:0px;
+  height:180px;
+  width: 299px;
+  bottom:0px;
+  border-style: solid;
+  border-width:1px;
+  background-color:rgba(255, 255, 255, 0.57);
+  display:flex;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.Button1,.Button12,.Button13,.Button14,.Button15,.Button16,.Button17
+{
+  padding: 5px 8px 5px 8px;
+  z-index: 100;
+  background-color: aliceblue;
+  height:35px;
+  margin-top:40px;
+  font-family:arial;
+  font-weight: 600;
+  transition:all 0.5s;
+}
+.Button1:hover,.Button12:hover,.Button13:hover,.Button14:hover,.Button15:hover,.Button16:hover,.Button17:hover
+{
+  background-color: rgb(11, 193, 239);
+  color:white;
+  box-shadow: 3px 3px 4px black;
+  border:none;
+  border-radius:12px;
+  padding: 8px 12px 8px 12px;
+  cursor:pointer;
+}
+.Button1:active,.Button12:active,.Button13:active,.Button14:active,.Button15:active,.Button16:active,.Button17:active
+{
+  background-color: rgb(29, 199, 29);
+  cursor:pointer;
+}
+
+.Big,.Big2,.Big3,.Big4,.Big5,.Big6,.Big7
+{
+  position: relative;
+  border-style: solid;
+  margin-bottom: 230px;
+}
+body
+{
+  height:8000px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: center;
+  background-color: rgb(37, 35, 35);
+  padding-top: 60px;
+  padding-left:190px
+}
+
+.Main2:hover,.Main22:hover,.Main23:hover,.Main24:hover,.Main25:hover,.Main26:hover,.Main27:hover
+{
+  background-color: rgba(209, 158, 55, 0.568);
+}
+.Header
+{
+  position: fixed;
+  height:50px;
+  top:0px;
+  left:0px;
+  right:0px;
+  background-color: rgb(200, 48, 91);
+  z-index: 100;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: center;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+}
+.pic
+{
+  height:40px;
+  width:150px;
+  margin-left:30px;
+  align-items: center;
+  vertical-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sub-pic
+{
+  height:40px;
+  width:40px;
+  object-fit: cover;
+  border-radius: 40px;
+  border:none;
+}
+.User-Name
+{
+  width:90px;
+  align-items: center;
+  vertical-align: center;
+  font-weight: 560;
+  font-family: a;
+}

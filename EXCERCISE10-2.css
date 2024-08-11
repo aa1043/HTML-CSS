@@ -1,0 +1,17 @@
+.a
+{
+  margin-left: 340px;
+}
+
+
+.b
+{
+  display: block;
+  width:700px;
+  padding:10px 15px 10px 15px;
+  border-radius:20px;
+  box-shadow:5px 5px 20px black;
+  border:none;
+  margin-left: 140px;
+  margin-top:10px;
+}

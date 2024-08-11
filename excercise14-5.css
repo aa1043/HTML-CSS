@@ -1,0 +1,45 @@
+.Main
+{
+  display: flex;
+  height:120px;
+  flex-direction: column;
+  column-gap: 10px;
+  box-shadow: 4px 4px 4px 8px rgb(183, 176, 176);
+  padding:10px,3px,6px,3px;
+  border-radius: 10px;
+}
+.sub-main1,.sub-main2,.sub-main3
+{
+  height: 35px;
+  display:flex;
+  justify-content: space-between;
+  flex-direction:row;
+  align-items: center;
+}
+.p1,.p2,.p3
+{
+  margin-top:3px;
+  margin-bottom: 3px;
+  font-family: arial;
+  margin-left:3px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.sec-sub-p1,.sec-sub-p2,.sec-sub-p3
+{
+  margin:5px 4px 5px 5px;
+  width:70px;
+}
+.b1,.b2,.b3
+{
+  border-radius: 8px;
+  border:none;
+  padding:3px 15px 3px 15px;
+  font-weight: 600;
+  color:white;
+  background-color: rgb(15, 80, 209);
+}
+.sec-sub-b1,.sec-sub-b2,.sec-sub-b3
+{
+  width:70px;
+}

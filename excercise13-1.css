@@ -1,0 +1,14 @@
+.a
+{
+  display: grid;
+  grid-template-columns:200px 75px ;
+  height:20px;
+}
+.b
+{
+  background-color:lightblue;
+}
+.c
+{
+  background-color:antiquewhite;
+}

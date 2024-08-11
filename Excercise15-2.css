@@ -1,0 +1,326 @@
+.Main
+{
+  display:flex;
+  flex-direction: column;
+  width:510px;
+  height:460px;
+  border-radius: 9px;
+  box-shadow:2px 2px 7px black;
+  justify-content: space-around;
+  padding-left: 13px;
+}
+
+.Main1
+{
+  display:flex;
+  flex-direction: column;
+  height:130px;
+  width:490px;
+  border-radius: 9px;
+  box-shadow:2px 2px 7px black;
+}
+.Inbox1
+{
+  height:45px;
+  width:100%;
+}
+.Sub-Inbox1
+{
+  margin-top:10px;
+  margin-left:12px;
+  font-family: arial;
+  color:grey;
+  font-weight:550;
+}
+.Sub-Main1
+{
+  display:flex;
+  flex-direction: row;
+  height:80px;
+  width:480px;
+  justify-content: space-between;
+}
+.Image1
+{
+  width:60px;
+  height:60px;
+  margin-left:9px;
+}
+.Sub-Image1
+{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:50px;
+}
+.Sec-Sub-Main1
+{
+  display:flex;
+  flex-direction: column;
+  margin-right: 7px;
+  justify-content: start;
+  width:390px;
+}
+.Promo-Main1
+{
+  display:flex;
+  flex-direction: row;
+  margin-right: 7px;
+  justify-content: space-between;
+  width:390px;
+  height:20px;
+}
+.Promotions1
+{
+  width: 180px;
+  font-family: arial;
+  font-weight: bold;
+}
+.Promotions-Time1
+{
+  width:60px;
+  height:20px;
+}
+.Sub-Promotions1,.Time1
+{
+  margin-top:0px;
+  margin-bottom:4px;
+}
+.Time1
+{
+  font-family: arial;
+  font-size:15px;
+  color:grey;
+}
+.Sales1
+{
+  width: 200px;
+  font-family: arial;
+  font-weight: bold;
+  height:8px;
+}
+.Sub-Sales1
+{
+  margin-top:0px;
+}
+.Hey1
+{
+  height:10px;
+}
+.Sub-Hey1
+{
+  font-family: arial;
+  height:14px;
+  font-weight:500;
+  color:grey;
+}
+
+.Main2
+{
+  display:flex;
+  flex-direction: column;
+  height:130px;
+  width:490px;
+  border-radius: 9px;
+  box-shadow:2px 2px 7px black;
+}
+.Inbox2
+{
+  height:45px;
+  width:100%;
+}
+.Sub-Inbox2
+{
+  margin-top:10px;
+  margin-left:12px;
+  font-family: arial;
+  color:grey;
+  font-weight:550;
+}
+.Sub-Main2
+{
+  display:flex;
+  flex-direction: row;
+  height:80px;
+  width:480px;
+  justify-content: space-between;
+}
+.Image2
+{
+  width:60px;
+  height:60px;
+  margin-left:9px;
+}
+.Sub-Image2
+{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:50px;
+}
+.Sec-Sub-Main2
+{
+  display:flex;
+  flex-direction: column;
+  margin-right: 7px;
+  justify-content: start;
+  width:390px;
+}
+.Promo-Main2
+{
+  display:flex;
+  flex-direction: row;
+  margin-right: 7px;
+  justify-content: space-between;
+  width:390px;
+  height:20px;
+}
+.Promotions2
+{
+  width: 180px;
+  font-family: arial;
+  font-weight: bold;
+}
+.Promotions-Time2
+{
+  width:60px;
+  height:20px;
+}
+.Sub-Promotions2,.Time2
+{
+  margin-top:0px;
+  margin-bottom:4px;
+}
+.Time2
+{
+  font-family: arial;
+  font-size:15px;
+  color:grey;
+}
+.Sales2
+{
+  width: 200px;
+  font-family: arial;
+  font-weight: bold;
+  height:8px;
+}
+.Sub-Sales2
+{
+  margin-top:0px;
+}
+.Hey2
+{
+  height:10px;
+}
+.Sub-Hey2
+{
+  font-family: arial;
+  height:14px;
+  font-weight:500;
+  color:grey;
+}
+
+.Main3
+{
+  display:flex;
+  flex-direction: column;
+  height:130px;
+  width:490px;
+  border-radius: 9px;
+  box-shadow:2px 2px 7px black;
+}
+.Inbox3
+{
+  height:45px;
+  width:100%;
+}
+.Sub-Inbox3
+{
+  margin-top:10px;
+  margin-left:12px;
+  font-family: arial;
+  color:grey;
+  font-weight:550;
+}
+.Sub-Main3
+{
+  display:flex;
+  flex-direction: row;
+  height:80px;
+  width:480px;
+  justify-content: space-between;
+}
+.Image3
+{
+  width:60px;
+  height:60px;
+  margin-left:9px;
+}
+.Sub-Image3
+{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:50px;
+}
+.Sec-Sub-Main3
+{
+  display:flex;
+  flex-direction: column;
+  margin-right: 7px;
+  justify-content: start;
+  width:390px;
+}
+.Promo-Main3
+{
+  display:flex;
+  flex-direction: row;
+  margin-right: 7px;
+  justify-content: space-between;
+  width:390px;
+  height:20px;
+}
+.Promotions3
+{
+  width: 180px;
+  font-family: arial;
+  font-weight: bold;
+}
+.Promotions-Time3
+{
+  width:60px;
+  height:20px;
+}
+.Sub-Promotions3,.Time3
+{
+  margin-top:0px;
+  margin-bottom:4px;
+}
+.Time3
+{
+  font-family: arial;
+  font-size:15px;
+  color:grey;
+}
+.Sales3
+{
+  width: 200px;
+  font-family: arial;
+  font-weight: bold;
+  height:8px;
+}
+.Sub-Sales3
+{
+  margin-top:0px;
+}
+.Hey3
+{
+  height:10px;
+}
+.Sub-Hey3
+{
+  font-family: arial;
+  height:14px;
+  font-weight:500;
+  color:grey;
+}

@@ -1,0 +1,14 @@
+.main
+{
+  display:flex;
+  flex-direction:row;
+  height:50px;
+  border-style:solid;
+  border-color: grey;
+  justify-content: space-between;
+  align-items: center;
+}
+.item1,.item2
+{
+  background-color: lightpink;
+}

@@ -1,0 +1,47 @@
+p
+{
+  font-family: Roboto;
+}
+.vdo-title
+{
+  font-size:18px;
+  font-weight:Bold;
+  width:300px;
+  line-height:25px;
+  margin-bottom: 6px;
+}
+.views
+{
+  font-size:14px;
+  color:rgb(96, 96, 96);
+  margin-top:0;
+}
+.MB
+{
+  color:rgb(96, 96, 96);
+  width:300px;
+  font-size:14px;
+}
+.ct
+{
+  color:rgb(96, 96, 96);
+  width:300px;
+  font-size:14px;
+  line-height:22px;
+  margin-bottom:100px;
+}
+.bt
+{
+  font-size: 15px;
+  background-color: rgb(227,65,64);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color:white;
+  transition: text-decoration 0.3s,cursor 0.3s;
+}
+.sel:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+}

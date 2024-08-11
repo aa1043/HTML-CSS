@@ -1,0 +1,11 @@
+.a
+{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap:40px;
+}
+.b,.c,.d,.e,.f,.g
+{
+  background-color: blueviolet;
+}

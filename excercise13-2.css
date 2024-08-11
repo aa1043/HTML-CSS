@@ -1,0 +1,17 @@
+.a
+{
+  display:grid;
+  grid-template-columns:50px 1fr 75px; 
+}
+.b
+{
+  background-color: skyblue;
+}
+.c
+{
+  background-color: pink;
+}
+.d
+{
+  background-color: skyblue;
+}
